@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Property Analysis</title>
+  <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div id="navigation">
+        <p id="logo">KnowProperty</p>
+        <ul id="nav-list">
+            <a href="index.html"><li>Home</li></a>
+            <a href="analysis.html"><li>Analysis</li></a>
+            <a href="investment.html"><li>Investment</li></a>
+        </ul>
+    </div>
+  <header class="header">
+    <h1>Property Analysis</h1>
+  </header>
+
+  <main class="main">
+    <div class="analysis-form">
+      <h2>Property Analysis Form</h2>
+      <form action="#">
+        <label for="propertyType">Property Type:</label>
+        <select id="propertyType" name="propertyType">
+          <option value="apartment">Apartment</option>
+          <option value="house">House</option>
+          <option value="condo">Condo</option>
+        </select>
+
+        <label for="propertyLocation">Property Location:</label>
+        <input type="text" id="propertyLocation" name="propertyLocation" placeholder="Enter property location">
+
+        <label for="propertyPrice">Property Price:</label>
+        <input type="number" id="propertyPrice" name="propertyPrice" placeholder="Enter property price">
+
+        <label for="downPaymentPercentage">Down Payment Percentage:</label>
+        <input type="number" id="downPaymentPercentage" name="downPaymentPercentage" placeholder="Enter down payment percentage">
+
+        <label for="mortgageInterestRate">Mortgage Interest Rate:</label>
+        <input type="number" id="mortgageInterestRate" name="mortgageInterestRate" placeholder="Enter mortgage interest rate">
+
+        <label for="mortgageTermInYears">Mortgage Term (Years):</label>
+        <input type="number" id="mortgageTermInYears" name="mortgageTermInYears" placeholder="Enter mortgage term in years">
+
+        <button type="submit">Analyze</button>
+      </form>
+    </div>
+
+    <div class="analysis-results">
+      <h2>Analysis Results</h2>
+      <div id="analysis-results-container">
+        </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2023 Property Investment</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

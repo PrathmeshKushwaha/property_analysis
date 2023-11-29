@@ -1,0 +1,114 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .analysis-results {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fafafa;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .analysis-results h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #analysis-results-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+.analysis-form {
+  width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fafafa;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.analysis-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333333;
+}
+
+.analysis-form input,
+.analysis-form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.analysis-form button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+  
+a:visited {
+    color: inherit;
+}
+#logo {
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    font-size: 24px;
+    padding-left: 16px;
+}
+#navigation {
+   background-color: #fbfcff; 
+   display:flex;
+   min-height: 64px;
+   max-width: 100%;
+   height: 60px;
+   top: 0;
+   align-items: center;
+   overflow-x: auto;
+   position: sticky;
+   z-index: 1;
+}
+#nav-list {
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: rgb(71, 71, 71);
+}
+#nav-list li {
+    margin-right: 45px
+}
